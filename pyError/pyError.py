@@ -17,5 +17,6 @@ def newError(Title, HeadText, SubText, x, y):
 
      root.mainloop()
 
+
 def close():
     sys.exit()
