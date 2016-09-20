@@ -1,5 +1,6 @@
 import tkMessageBox
 from Tkinter import *
+import sys
 
 def newError(Title, HeadText, SubText, x, y):
      root = Tk()
@@ -15,3 +16,6 @@ def newError(Title, HeadText, SubText, x, y):
      tkinterLabel2.pack()
 
      root.mainloop()
+
+def close():
+    sys.exit()
